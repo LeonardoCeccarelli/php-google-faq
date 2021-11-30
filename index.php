@@ -83,6 +83,25 @@ $mainData = [
         ],
     ],
 
+];
+
+$listFooterLink = [
+    [
+        "text" => "Google",
+        "url" => "#Google"
+    ],
+    [
+        "text" => "Tutto su Google",
+        "url" => "#Tutto_su_Google"
+    ],
+    [
+        "text" => "Privacy",
+        "url" => "#Privacy"
+    ],
+    [
+        "text" => "Termini",
+        "url" => "#Termini"
+    ],
 ]
 
 ?>
@@ -164,7 +183,31 @@ $mainData = [
         </div>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="footer_container">
+            <div class="footer_link align_center">
+                <ul class="footer_link_container">
+                    <?php
+
+                    foreach ($listFooterLink as $link) {
+                        echo "<li><a href='" . $link["url"] . "'>" . $link["text"] . "</a></li>";
+                    }
+
+                    ?>
+                </ul>
+            </div>
+            <div class="footer_input align_center">
+                <i class="fas fa-comment-dots"></i>
+                <select name="selectLanguage">
+                    <option value="1">Italiano</option>
+                    <option value="2">Francese</option>
+                    <option value="3">Tedesco</option>
+                    <option value="4">Inglese</option>
+                    <option value="5">Spagnolo</option>
+                </select>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
