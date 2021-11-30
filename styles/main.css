@@ -10,6 +10,10 @@ body {
 }
 
 /* Tag Utilities */
+h1, h2, h3, h4, h5, h6 {
+    color: grey;
+}
+
 a {
     text-decoration: none;
 }
@@ -28,14 +32,24 @@ ul, ol {
     align-items: center;
 }
 
+.m_bottom {
+    margin-bottom: 18px;
+}
+
+.m_bottom_plus {
+    margin-bottom: 28px;
+}
+
 /* CSS Base */
 header {
     width: 100%;
     max-width: 1500px;
     position: fixed;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
     border-bottom: 1px solid rgba(128, 128, 128, 0.568);
+    background-color: white;
 }
 
 /* NAVBAR TOP */
@@ -57,7 +71,6 @@ header {
 .nav_top_logo h2 {
     display: inline-block;
     margin-left: 10px;
-    color: grey;
     font-weight: 500;
 }
 
@@ -106,3 +119,11 @@ header {
 }
 
 /* MAIN - CONTAINER */
+.main_container {
+    width: 1000px;
+    margin: 200px auto 0;
+}
+
+.help_section h2, .help_section h3{
+    font-weight: 600;
+}
