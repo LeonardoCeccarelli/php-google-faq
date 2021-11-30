@@ -33,7 +33,7 @@ ul, ol {
 }
 
 .m_bottom {
-    margin-bottom: 18px;
+    margin-bottom: 20px;
 }
 
 .m_bottom_plus {
@@ -41,7 +41,7 @@ ul, ol {
 }
 
 .m_bottom_less {
-    margin-bottom: 13px;
+    margin-bottom: 15px;
 }
 
 /* CSS Base */
@@ -132,6 +132,10 @@ header {
     font-weight: 600;
 }
 
+.help_section p {
+    font-size: 15px;
+}
+
 .help_section p:last-child {
     margin-bottom: 50px;
 }
@@ -139,9 +143,19 @@ header {
 .help_section ol {
     list-style: decimal;
     display: block;
+    margin-left: 20px;
+    font-size: 15px;
 }
 
 .help_section ol > li > ol {
     list-style: lower-alpha;
-    margin-left: 10px;
+    margin-left: 20px;
+}
+
+.help_section ol > li > ol > li:first-child {
+    margin-top: 15px;
+}
+
+.help_section > * {
+    line-height: 25px;
 }

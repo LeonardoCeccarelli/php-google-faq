@@ -46,7 +46,7 @@ $mainData = [
         ],
     ],
     [
-        "title" => "<h2 class='m_bottom'></h2>",
+        "title" => "<h2 class='m_bottom'>Perché il mio account è associato a un paese?</h2>",
         "paragraphs" => [
             "<p class='m_bottom_plus'>Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:</p>",
             "<ol class='m_bottom_plus'>
@@ -63,30 +63,23 @@ $mainData = [
         ],
     ],
     [
-        "title" => "<h2 class='m_bottom'></h2>",
+        "title" => "<h3 class='m_bottom'>Stabilire il paese associato al tuo account</h3>",
         "paragraphs" => [
-            "<p class='m_bottom_plus'></p>",
-            "<p class='m_bottom_plus'></p>",
-            "<p class='m_bottom_plus'></p>",
-            "<p class='m_bottom_plus'></p>",
+            "<p class='m_bottom_plus'>Quando crei un nuovo Account Google, lo associamo a un paese in base a dove è stato creato. Per quanto riguarda gli account creati almeno un anno fa, usiamo il paese da cui accedi solitamente ai servizi Google, in genere i servizi in cui hai trascorso più tempo nell'ultimo anno.</p>",
+            "<p class='m_bottom_plus'>I viaggi frequenti solitamente non influiscono sul paese associato al tuo account. Se ti trasferisci in un altro paese, potrebbe occorrere circa un anno per aggiornare l'associazione del paese.</p>",
+            "<p class='m_bottom_plus'>Se il paese associato al tuo account non corrisponde al tuo paese di residenza, il motivo potrebbe essere la differenza tra il paese in cui lavori e il paese in cui risiedi, l'installazione di una rete privata virtuale (VPN) per mascherare il tuo indirizzo IP oppure la residenza vicino a un confine territoriale. <a href='#'>Contattaci</a> se ritieni che il paese associato al tuo account sia sbagliato.</p>",
         ],
     ],
     [
-        "title" => "<h2 class='m_bottom'></h2>",
+        "title" => "<h2 class='m_bottom'>Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?</h2>",
         "paragraphs" => [
-            "<p class='m_bottom_plus'></p>",
-            "<p class='m_bottom_plus'></p>",
-            "<p class='m_bottom_plus'></p>",
-            "<p class='m_bottom_plus'></p>",
+            "<p class='m_bottom_plus'>I risultati di ricerca di Google rispecchiano i contenuti pubblicamente disponibili sul Web. I motori di ricerca non possono rimuovere i contenuti direttamente dai siti web, quindi rimuovere risultati di ricerca da Google non consente di rimuovere i contenuti dal Web. Se desideri rimuovere qualcosa dal Web, devi <a href='#'>contattare il webmaster</a> del sito su cui sono pubblicati i contenuti e chiedergli di apportare una modifica. Inoltre, se, ai sensi delle leggi europee per la protezione dei dati, desideri richiedere la rimozione di determinate informazioni su di te visualizzate nei risultati di ricerca di Google, <a href='#'>fai clic qui.</a> Una volta che i contenuti saranno stati rimossi e che Google avrà rilevato l'aggiornamento, le informazioni non verranno più visualizzate nei risultati di ricerca di Google. In caso di una richiesta di rimozione urgente, è inoltre possibile <a href='#'>visitare la nostra pagina di assistenza per avere ulteriori informazioni.</a></p>",
         ],
     ],
     [
-        "title" => "<h2 class='m_bottom'></h2>",
+        "title" => "<h2 class='m_bottom'>Quando faccio clic sui risultati della Ricerca Google, le mie chiavi di ricerca vengono inviate ai siti web?</h2>",
         "paragraphs" => [
-            "<p class='m_bottom_plus'></p>",
-            "<p class='m_bottom_plus'></p>",
-            "<p class='m_bottom_plus'></p>",
-            "<p class='m_bottom_plus'></p>",
+            "<p class='m_bottom_plus'>In alcuni casi sì. Quando fai clic su un risultato della Ricerca Google, il tuo browser web potrebbe reindirizzare alla pagina web di destinazione anche l'indirizzo Internet, o URL, della pagina dei risultati di ricerca sotto forma di <a href='#'>URL referrer.</a> Talvolta, l'URL della pagina dei risultati di ricerca potrebbe contenere la query di ricerca che hai inserito. Se utilizzi la ricerca SSL (la funzione di ricerca criptata di Google), nella maggior parte dei casi i termini di ricerca non vengono inviati come parte dell'URL negli URL referrer. Questo comportamento può fare eccezione, ad esempio se utilizzi alcuni browser meno diffusi. Ulteriori informazioni sulla ricerca SSL sono disponibili <a href='#'>qui.</a> Le query di ricerca o le informazioni contenute nell'URL referrer potrebbero essere disponibili mediante Google Analytics o un'API (Application Programming Interface). Inoltre, gli inserzionisti potrebbero ricevere informazioni relative all' esatte parole chiave che hanno determinato il clic su un annuncio.</p>",
         ],
     ],
 
