@@ -40,6 +40,10 @@ ul, ol {
     margin-bottom: 28px;
 }
 
+.m_bottom_less {
+    margin-bottom: 13px;
+}
+
 /* CSS Base */
 header {
     width: 100%;
@@ -126,4 +130,18 @@ header {
 
 .help_section h2, .help_section h3{
     font-weight: 600;
+}
+
+.help_section p:last-child {
+    margin-bottom: 50px;
+}
+
+.help_section ol {
+    list-style: decimal;
+    display: block;
+}
+
+.help_section ol > li > ol {
+    list-style: lower-alpha;
+    margin-left: 10px;
 }
